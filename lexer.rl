@@ -1,5 +1,5 @@
 //This is just a sketch on how to make a simple calculator.
-// Reads in a file, and outputs the result of the calculation.
+// Reads in a file, and outputs the result of each calculation.
 
 #include <iostream>
 #include <string>
@@ -17,6 +17,7 @@ std::string getStr(const char* beg, const char* end)
 machine calc;
 
 action semi_tok {
+   //Terminate this calculation.
    Parse(lparser, 0, 0);
 }
 
