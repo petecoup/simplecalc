@@ -1,0 +1,4 @@
+This is a simple, ragel, lemon based calculator.
+Basically, just shows how to glue ragel and lemon together to
+make a relatively simple lexer/parser pair.
+
