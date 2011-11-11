@@ -1,3 +1,6 @@
+//This is just a sketch on how to make a simple calculator.
+// Reads in a file, and outputs the result of the calculation.
+
 #include <iostream>
 #include <string>
 #include <stdlib.h>
